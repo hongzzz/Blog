@@ -21,7 +21,7 @@ JavaScript遇到一个异步任务时，会暂时将这个任务加入任务队�
 任务队列不止有一个，异步任务又细分为Microtasks和Macrotasks，即微任务与宏任务，他们分别在不同的队列中。
 
 * **macrotasks**: `setTimeout`, `setInterval`, `setImmediate`, `requestAnimationFrame`,I/O, UI rendering
-* **microtasks**: `process.nextTick`, `Promise`, `Object.observe`\(废弃\), `MutationObserver`
+* **microtasks**: `process.nextTick`, `Promise`, `Object.observe`(废弃), `MutationObserver`
 
 每个事件循环中，从Marcotasks队列中取一个任务执行，再执行完Microtasks队列中的任务，接着进入下一个事件循环。
 
@@ -68,7 +68,6 @@ console.log('script end');
 
 [https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/) （有效果图，有帮助理解）
 
-[https://html.spec.whatwg.org/multipage/webappapis.html\#event-loop-processing-model](https://html.spec.whatwg.org/multipage/webappapis.html#event-loop-processing-model)
+[https://html.spec.whatwg.org/multipage/webappapis.html#event-loop-processing-model](https://html.spec.whatwg.org/multipage/webappapis.html#event-loop-processing-model)
 
 [https://github.com/ccforward/cc/issues/47](https://github.com/ccforward/cc/issues/47)
-

@@ -115,4 +115,3 @@ console.log(myNew(Person, 'hong')) // Person { name: 'hong', sex: 'man' }
 ## 参考
 
 > [https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)
-

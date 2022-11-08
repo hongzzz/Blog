@@ -64,4 +64,3 @@ parent2.child.name = 'changed child';
 console.log(parent.child.name); // 'child' 
 console.log(parent2.child.name); // 'changed child'
 ```
-

@@ -36,4 +36,3 @@ Reflow 需要重新计算整个文档元素位置
 参考 [reflow和repaint引发的性能问题 - 掘金](https://juejin.im/post/5a9372895188257a6b06132e)
 
 另外图层相关知识可看 [无线性能优化：Composite](http://taobaofed.org/blog/2016/04/25/performance-composite/)
-

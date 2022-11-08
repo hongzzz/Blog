@@ -2,9 +2,9 @@
 
 从上到下分别有应用层，表示层，会话层，传输层，网络层，数据链路层，物理层共七层
 
-\(另TCP/IP模型有应用层，传输层，网络互联层，网络接口层共四层\)
+(另TCP/IP模型有应用层，传输层，网络互联层，网络接口层共四层)
 
-![OSI&#x4E03;&#x5C42;&#x6A21;&#x578B;](https://raw.githubusercontent.com/hongzzz/blog/master/image/OSI%E4%B8%83%E5%B1%82%E6%A8%A1%E5%9E%8B.png)
+![OSI七层模型](https://raw.githubusercontent.com/hongzzz/blog/master/image/OSI%E4%B8%83%E5%B1%82%E6%A8%A1%E5%9E%8B.png)
 
 ## 应用层
 
@@ -45,4 +45,3 @@
 > 线路，无线电，光纤
 >
 > 参考 [维基百科](https://zh.wikipedia.org/wiki/OSI%E6%A8%A1%E5%9E%8B)
-

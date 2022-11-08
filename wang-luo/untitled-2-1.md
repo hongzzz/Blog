@@ -6,7 +6,7 @@
 
 强制缓存通过 **Expires** 和 **Cache-Control** 来控制，它们都是用来标志资源过期时间的首部。
 
-优先级 **Cache-Control** &gt; **Expires**
+优先级 **Cache-Control** > **Expires**
 
 缓存可用情况下在chrome表现为`200 OK(from cache)`
 
@@ -14,7 +14,7 @@
 
 http1.0时期的产物，Expires的值对应一个GMT，不超过这个时间则不发送新请求。如
 
-```text
+```
 Expires: Wed, 09 Jan 2019 05:28:54 GMT
 ```
 
@@ -22,7 +22,7 @@ Expires: Wed, 09 Jan 2019 05:28:54 GMT
 
 http1.1中定义，常见值有**private**，**public**，**no-cache**，**max-age**，**no-store**，默认为 **private**
 
-```text
+```
 Cache-Control: max-age=3600
 ```
 
@@ -34,7 +34,7 @@ max-age 和 Expires 同时存在的情况下，忽略 Expires
 
 如果上述过程都不成功，那么客户端会向服务器发出一个请求，服务器对比后返回对应 **304** 或者 **200**
 
-优先级 **ETag** &gt; **Last-Modified**
+优先级 **ETag** > **Last-Modified**
 
 ### Last-Modified
 
@@ -65,4 +65,3 @@ max-age 和 Expires 同时存在的情况下，忽略 Expires
 ### Ctrl+F5强制刷新
 
 同样发请求到服务器，但是请求头部不携带 **If-Modified-Since** 或者 **If-None-Match**，让服务器不能比较资源是否改动，只能返回完整的资源
-
