@@ -15,7 +15,7 @@ HTTP报文分为**请求报文**与**响应报文**两种
 
 由请求行，首部行，实体主体三部分组成
 
-![请求报文](https://raw.githubusercontent.com/hongzzz/blog/master/image/http%E8%AF%B7%E6%B1%82%E6%8A%A5%E6%96%87.png)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>请求报文</p></figcaption></figure>
 
 ### 请求行
 

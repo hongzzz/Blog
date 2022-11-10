@@ -4,7 +4,7 @@
 
 (另TCP/IP模型有应用层，传输层，网络互联层，网络接口层共四层)
 
-![OSI七层模型](https://raw.githubusercontent.com/hongzzz/blog/master/image/OSI%E4%B8%83%E5%B1%82%E6%A8%A1%E5%9E%8B.png)
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>OSI七层模型</p></figcaption></figure>
 
 ## 应用层
 

@@ -10,7 +10,7 @@
 
 * [HTTPS 加密相关](network/untitled-5.md)
 * [OSI 七层模型](network/untitled-3.md)
-* [GET POST 区别](network/untitled-1-5.md)
+* [GET、POST 区别](network/untitled-1-5.md)
 * [HTTP 缓存机制](network/untitled-2-1.md)
 * [HTTP 报文格式](network/untitled-4.md)
 * [HTTP 协议版本](network/untitled-3-1.md)
